@@ -11,7 +11,7 @@ If you've previously run a node on the `shielded-expedition`, the process for ru
 ### 1. Install Namada
 1. Check the Campfire [landing page](https://testnet.luminara.icu) to see which version of Namada you will need.
 2. Install [Namada](https://github.com/anoma/namada/releases) according to the [instructions](https://docs.namada.net/introduction/install) in the docs. You can either download the pre-built binaries from the GitHub [releases](https://github.com/anoma/namada/releases) page, or clone the repo and build from source. There are also Docker images available [here](https://hub.docker.com/r/spork666/namada) and [here](https://github.com/anoma/namada/pkgs/container/namada).
-3. Verify your installation with `namada --version`.
+3. Verify your installation with `docker run -P -i -t $DOCKER_IMAGE -V`.
 
 ### 2. Initialize your node (`join-network`)
 1. Check the Campfire [landing page](https://testnet.luminara.icu); you will need the current chain-id.
